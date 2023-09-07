@@ -1,0 +1,59 @@
+
+  
+  .cosasALaDerecha{
+  text-align: right;
+  }
+  
+  .boton-estetico {
+  
+  padding: 5px 5px;
+  background-color: #F1BD2D; /* Color de fondo */
+  color: #000000; /* Color del texto */
+  border-radius: 5px;
+  border-color: #000000;
+  border: 2px solid #000000;
+  font-size: 16px;
+  cursor: pointer;
+  }
+  
+  .campo {
+  margin-bottom: 20px; 
+  }
+  
+  label {
+  display: inline-block; 
+  font-weight: bold; 
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #7d0300; 
+  border-radius: 5px; 
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"]:hover {
+  border-color: #7d0300;
+  }
+  
+  /*Esto lo voy a usar para que los divs se separen de forma horizontal*/
+  .divhorizontale{
+    margin-bottom: 100px;
+
+    display: flex;
+  }
+  .divvert{
+    margin-bottom: 20px;
+    width: 70%;
+  }
+  .divcontenedor{
+    display: flex;
+  }
+  img {
+    aspect-ratio: 100;
+
+  }
